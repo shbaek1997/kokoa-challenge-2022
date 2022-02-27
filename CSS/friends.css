@@ -1,6 +1,6 @@
 .friends-page {
   background-color: var(--pale-blue);
-  height: 1000vh;
+  height: 400vh;
 }
 
 .friends-header {
@@ -45,11 +45,10 @@
   display: flex;
   justify-content: center;
   top: 0;
-  width: 100vw;
   height: 100vh;
-  margin: 0px -20px;
   padding-top: 10vh;
   padding-left: 20vw;
+  z-index: 2;
 }
 #splash-screen > img {
   width: 100vw;
