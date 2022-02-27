@@ -1,0 +1,53 @@
+.find-header {
+  margin-bottom: 40px;
+}
+.find-page {
+  height: 100vh;
+  background-image: url("ocean_background_3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.find__dot {
+  position: relative;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: rgb(250, 62, 62);
+  right: -45px;
+  top: -30px;
+}
+.find-header__text {
+  color: black;
+}
+.find-header__icons {
+  color: black;
+}
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.find__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.find__icon > i {
+  font-size: 36px;
+  margin-bottom: 20px;
+  transition: 0.3s ease-in-out;
+}
+.find__icon > span {
+  white-space: pre-line;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+.find__icon > i:hover {
+  box-shadow: 0 0 20px white;
+  border-radius: 20px;
+  font-size: 50px;
+}

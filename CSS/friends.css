@@ -1,0 +1,57 @@
+.friends-page {
+  background-color: var(--pale-blue);
+  height: 1000vh;
+}
+
+.friends-header {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+}
+.friends-header__icons {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 0px;
+}
+.friends-header__icons i {
+  margin-left: 18px;
+}
+.friends-header__text {
+  font-weight: 600;
+  font-size: 36px;
+}
+.friends-banner {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-blue);
+  margin: 20px -20px;
+}
+.friends-banner i {
+  margin: 0 15px;
+}
+.chats-header {
+  margin-bottom: 40px;
+}
+#splash-screen {
+  position: absolute;
+  background-image: url("ocean_background_nemo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px -20px;
+}
+#splash-screen > img {
+  margin-top: 150px;
+  width: 800px;
+  height: 160px;
+  margin-left: 300px;
+}

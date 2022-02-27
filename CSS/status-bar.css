@@ -1,0 +1,28 @@
+.status-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+.status-bar > span {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.status-bar > span:nth-child(2) {
+  justify-content: center;
+}
+.status-bar > span:last-child {
+  justify-content: flex-end;
+}
+.status-bar > span:first-child i {
+  margin-left: 15px;
+}
+.status-bar > span:last-child i {
+  margin-right: 10px;
+  margin-left: 10px;
+}

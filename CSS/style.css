@@ -1,0 +1,23 @@
+@import "reset.css";
+@import "variables.css";
+@import "status-bar.css";
+@import "log-in.css";
+@import "friends.css";
+@import "user.css";
+@import "separator.css";
+@import "nav.css";
+@import "find.css";
+@import "open-chat.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
+@import "reply.css";
+@import "animations.css";
+@import "mobile-only.css";
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+.main-page {
+  padding: 0px 20px;
+}
