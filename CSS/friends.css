@@ -39,7 +39,7 @@
 }
 #splash-screen {
   position: absolute;
-  background-image: url("ocean_background_nemo.jpg");
+  background-image: url("images/nemo-title-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
