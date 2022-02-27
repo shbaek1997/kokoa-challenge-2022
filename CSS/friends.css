@@ -39,18 +39,13 @@
 }
 #splash-screen {
   position: absolute;
-  background-image: url("images/nemo-title-background.jpg");
+  background-image: url("images/nemo-title-background-2.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   top: 0;
   height: 100vh;
-  padding-top: 10vh;
-  padding-left: 20vw;
-  z-index: 2;
-}
-#splash-screen > img {
   width: 100vw;
-  height: 20vh;
+  z-index: 2;
 }
