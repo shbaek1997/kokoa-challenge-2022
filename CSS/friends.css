@@ -1,6 +1,7 @@
 .friends-page {
   background-color: var(--pale-blue);
   height: 1000vh;
+  width: 100vw;
 }
 
 .friends-header {
@@ -50,8 +51,8 @@
   margin: 0px -20px;
 }
 #splash-screen > img {
-  margin-top: 150px;
-  width: 800px;
-  height: 160px;
-  margin-left: 300px;
+  margin-top: 10vh;
+  width: 100vw;
+  height: 20vh;
+  margin-left: 40vw;
 }
